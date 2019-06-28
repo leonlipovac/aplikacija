@@ -9,15 +9,15 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
 
-	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-		<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
 
-			<TextBox x:Name="Message" Text="How are you?" Margin="10" IsReadOnly="True"/>
+            <TextBox x:Name="Message" Text="How are you??''" Margin="0,0,0,0" IsReadOnly="True" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.509,0.439"/>
 
-			<Button x:Name="ClickMe" Content="Click Me!"  Margin="10" HorizontalAlignment="Center"/>
+            <Button x:Name="ClickMe" Content="Click Me!"  Margin="10" HorizontalAlignment="Center"/>
 
-		</StackPanel>
+        </StackPanel>
 
-	</Grid>
+    </Grid>
 </Page>
