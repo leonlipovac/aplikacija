@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="aplikacija.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:aplikacija"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+
+	<Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+		<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+
+			<TextBox x:Name="Message" Text="How are you?" Margin="10" IsReadOnly="True"/>
+
+			<Button x:Name="ClickMe" Content="Click Me!"  Margin="10" HorizontalAlignment="Center"/>
+
+		</StackPanel>
+
+	</Grid>
+</Page>
